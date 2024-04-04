@@ -1,0 +1,80 @@
+#h1{
+ font-size: 16px;
+ color: black;
+font-family: 'Josefin Sans',sans-serif;
+ text-align: left;
+ word-spacing: 8px;
+ padding: 30px;
+}
+p{
+    text-align: left;
+    width: 200px; /* Adjust this value to control the line length */
+  font-size: 30px;
+  line-height: 2;
+  overflow-wrap: break-word;
+  color: black;
+    flex: 1;
+  margin-right: 10px; /* Adjust as needed */
+  text-align: left;
+  border: 5px solid darkblue;
+  box-sizing: border-box;
+  border-radius: 20px;
+    font-family: 'Josefin Sans',sans-serif;
+}
+body{
+    background-color:white;
+}
+.page1{
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+  
+}
+.img1{
+    flex: 1;
+    width: 1px;
+    height:400px;
+}
+.page2 {
+    text-align: center;
+    line-height: 1;
+}
+
+.page2 h1 {
+    font-size: 50px;
+    color: red;
+    text-decoration: underline bold;
+    text-shadow: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.page2 p {
+    font-size: 40px;
+    color: blueviolet;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    line-height: 1.5;
+  font-style: normal;
+  line-height: 1.5;
+  /* Ensure that the paragraph is centered */
+  margin: 0 auto;
+  text-align: center;
+  display: inline; /* or inline-block */
+inline-size:0;
+}
+
+.page2 ul {
+    color: black;
+    list-style-position: inside; /* Move bullet points inside the content flow */
+    display: inline-block; /* Make the list an inline block */
+    text-align: center; /* Align text to the left within the list */
+    margin: 0 auto; /* Center the list */
+    display: block;
+
+}
+
+.page2 li {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+}

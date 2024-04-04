@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.page1 {
+    height: 1000vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 60px; 
+    font-size: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 8%;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.content p {
+    max-width: 450px; 
+    line-height: 1.5;
+}
+
+.i1 {
+    object-fit: cover;
+    height: 500px;
+    width: auto;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: #f904df;
+}
+p1{
+    font-size: 50px;
+}
+.content p {
+    max-width: 450px; 
+    line-height: 1.8; 
+}
+.page2 {
+    margin-top: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+.page2 h3 {
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+.page2 ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.page2 ul li {
+    line-height: 2;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.page3 h3{
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+
+
+
