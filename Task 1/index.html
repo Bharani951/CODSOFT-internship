@@ -1,69 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Website</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="page1">
-      <nav>
-        <h2 class="logo">Portfo<span>lio</span></h2>
-        <ul>
-          <li><a href="#">Bio</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Resume</a></li>
-          <li><a href="#">Contact</a></li>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Stud<span>en</span>t..</a>
+        <ul class="navlist">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about" >About Me</a></li>
+            <li><a href="#services" >Services</a></li>
+            <li><a href="#portfolio" > portfolio</a></li>
+            <li><a href="#contact" >Contact </a></li>
         </ul>
-      </nav>
-      <div class="content">
-        <p>
-          <p1><strong>I am Bharani.</strong></p1
-          ><br />I am a second-year Bachelor's degree student in Information
-          Technology with a focus on front-end development. I possess skills in
-          HTML, CSS, and JavaScript and have completed several beginner-level
-          projects in these areas.
-        </p>
-        <div class="image">
-          <img class="i1" src="the pic.png" />
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+<!--          the home section     -->
+
+    <section class="home" id="home">
+        <div class="home">
+            <div class="home-text">
+                <div class="slide">
+                    <span class="one">Hello</span>
+                    <span class="two">I'm</span>
+                </div>
+                <br>
+                <h1>Bharani <span>K T</span></h1>
+                <p>I  am passionate web developer. <br>I love creating innovative and user-friendly web applications</p>
+                <div class="button">
+                    <a href="#" class="btn">About Me</a>
+                </div>
+            </div>
         </div>
-      </div>
-    
-      <hr>
-      <br>
-      <div class="page2">
-        <h3>
-          <strong>Ski<span>lls</span></strong>
-        </h3>
-        <br />
-        <ul>
-          <li>1.Proficient in English.</li>
-          <br />
-          <li>2.Basic programming languages:</li>
-          <br />
-          <ul>
-            <li>    C++</li>
-            <br />
-            <li>    Python</li>
-            <br />
-            <li>    Java</li>
-            <br />
-          </ul>
-          <br />
-          <li>3.Web application development.</li>
-          <br />
-        </ul>
-      </div>
-      <br><br>
-      <hr>
-      <br>
-      <div class="page3">
-        <h3>
-            <strong>Pro<span>ject</span></strong>
-        </h3>
-      </div>
+        <div class="container">
+            <img src="thepic.png" alt="face">
+        </div>    
+</section>
+
+<!--           the  about section           -->
+
+<section class="about" id="about">
+<div class="about-img">
+    <img src="thepic.png">
+</div>
+<div class="about-text">
+    <h2 id="h21">About <span>Me</span></h2>
+    <h4 id="h41">Website Designer</h4>
+    <p>
+        Hello! I'm a web developer with a passion for
+         exploring new technologies and innovations.
+          I'm constantly seeking opportunities to expand my knowledge 
+           and skills in web development. With experience
+            in HTML, CSS, and JavaScript, I'm eager to dive
+             deeper into the world of coding and bring creative ideas to life. 
+             I believe in the power of learning through doing, and
+              I'm excited to embark on this journey of discovery and growth in the tech industry</p>
+        <a href="#" class="btn1">More About</a>
+        </div>
+</section>
+
+<!--          the services section      -->
+
+<section class="services" id="services">
+<div class="main-text">
+    <h2><span>My  </span>Services</h2>
+</div>
+<div class="services-content">
+    <div class="box">
+        <div class="s-icons">
+            <i class="bx bx-mobile-alt"></i>
+        </div>
+        <h3>Web Design</h3>
+        <p>One way to categories the activities is in terms of professional's
+            area of experience such as competitive analysis, coporate strategies
+        </p>
+        <a href="#" class="btn">Read More</a>
     </div>
-  </body>
+    <div class="box">
+        <div class="s-icons">
+            <i class="bx bx-code-alt"></i>
+        </div>
+        <h3>Creative Design</h3>
+        <p>
+            One way to categories the activities is in terms of professional's
+            area of experience such as competitive analysis, coporate strategies
+        </p>
+        <a href="#" class="btn">Read More</a>
+    </div>
+    <div class="box">
+        <div class="s-icons">
+            <i class="bx bx-edit-alt"></i>
+        </div>
+        <h3>Creative Design</h3>
+        <p>
+            One way to categories the activities is in terms of professional's
+            area of experience such as competitive analysis, coporate strategies
+        </p>
+        <a href="#" class="btn">Read More</a>
+    </div>
+</div>
+</section>
+
+<!--      portfolio section     -->
+
+<section class="portfolio" id="portfolio">
+<div class="main-text">
+    <h2><span>Lastest  </span>Project</h2>
+</div>
+<div class="portfolio-content">
+    <div class="row">
+        <img src="imgp1.png">
+        <div class="layer">
+            <h5>Visual Design</h5>
+            <p>Check Out Design for Web Design & Development</p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+    </div>
+    <div class="row">
+        <img src="imgp2.png">
+        <div class="layer">
+            <h5>Visual Design</h5>
+            <p>Check Out Design for Web Design & Development</p>
+            <a href="#" ><i class='bx bx-link-external'></i></a>
+        </div>
+    </div>
+    <div class="row">
+        <img src="imgp3.png">
+        <div class="layer">
+            <h5>Visual Design</h5>
+            <p>Check Out Design for Web Design & Development</p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+    </div>
+    <div class="row">
+        <img src="imgp4.png">
+        <div class="layer">
+            <h5>Visual Design</h5>
+            <p>Check Out Design for Web Design & Development</p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+    </div>
+</div>
+</section>
+
+</body>
 </html>

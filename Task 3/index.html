@@ -1,29 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="calculator">
-        <input type="text" class="display" id="display" disabled>
-        <div class="buttons">
-            <button onclick="clearDisplay()">C</button>
-            <button onclick="appendValue('/')">/</button>
-            <button onclick="appendValue('*')">*</button>
-            <button onclick="appendValue('7')">7</button>
-            <button onclick="appendValue('8')">8</button>
-            <button onclick="appendValue('9')">9</button>
-            <button onclick="appendValue('-')">-</button>
-            <button onclick="appendValue('4')">4</button>
-            <button onclick="appendValue('5')">5</button>
-            <button onclick="appendValue('6')">6</button>
-            <button onclick="appendValue('+')">+</button>
-            <button onclick="appendValue('1')">1</button>
-            <button onclick="appendValue('2')">2</button>
-            <button onclick="appendValue('3')">3</button>
-            <button onclick="calculateResult()" class="equal">=</button>
-            <button onclick="appendValue('0')">0</button>
-            <button onclick="appendValue('.')">.</button>
+    <div class="container">
+        <div class="calculator">
+            <form>
+                <div class="display">
+                    <input type="text" name="display" id="display">
+                </div>
+                <div>
+                    <input type="button" value="AC" id="clear" class="operator">
+                    <input type="button" value="DE" id="delete" class="operator">
+                    <input type="button" value="." id="dot" class="operator">
+                    <input type="button" value="/" id="divide" class="operator">
+                </div>
+                <div>
+                    <input type="button" value="7" id="seven">
+                    <input type="button" value="8" id="eight">
+                    <input type="button" value="9" id="nine">
+                    <input type="button" value="*" id="multiply" class="operator">
+                </div>
+                <div>
+                    <input type="button" value="4" id="four">
+                    <input type="button" value="5" id="five">
+                    <input type="button" value="6" id="six">
+                    <input type="button" value="-" id="subtract" class="operator">
+                </div>
+                <div>
+                    <input type="button" value="1" id="one">
+                    <input type="button" value="2" id="two">
+                    <input type="button" value="3" id="three">
+                    <input type="button" value="+" id="add" class="operator">
+                </div>
+                <div>
+                    <input type="button" value="00" id="doubleZero">
+                    <input type="button" value="0" id="zero">
+                    <input type="button" value="=" id="equal" class="equal
+                    operator">                   
+                </div>
+            </form>
         </div>
     </div>
     <script src="script.js"></script>
