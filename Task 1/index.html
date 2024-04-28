@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
     <header>
-        <a href="#" class="logo">Stud<span>en</span>t..</a>
+        <a href="#" class="logo">Develo<span>pe</span>r..</a>
         <ul class="navlist">
             <li><a href="#home" class="active">Home</a></li>
             <li><a href="#about" >About Me</a></li>
@@ -36,9 +37,9 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <img src="thepic.png" alt="face">
-        </div>    
+      <div class="container">
+          <!--<img src="thepic.png" alt="face">-->  
+        </div>  
 </section>
 
 <!--           the  about section           -->
@@ -74,9 +75,10 @@
         <div class="s-icons">
             <i class="bx bx-mobile-alt"></i>
         </div>
-        <h3>Web Design</h3>
-        <p>One way to categories the activities is in terms of professional's
-            area of experience such as competitive analysis, coporate strategies
+        <h3>Front-End Web Design</h3>
+        <p>As an experienced and passionate front-end developer,
+             I excel in HTML and CSS, specializing in responsive design 
+             for web applications that allow direct user interaction.
         </p>
         <a href="#" class="btn">Read More</a>
     </div>
@@ -84,24 +86,16 @@
         <div class="s-icons">
             <i class="bx bx-code-alt"></i>
         </div>
-        <h3>Creative Design</h3>
+        <h3>Back-end Web Design</h3>
         <p>
-            One way to categories the activities is in terms of professional's
-            area of experience such as competitive analysis, coporate strategies
+            
+As an experienced and passionate front-end developer, 
+I excel in JavaScript and MySQL, specializing in responsive 
+web application design that enables direct user interaction.
         </p>
         <a href="#" class="btn">Read More</a>
     </div>
-    <div class="box">
-        <div class="s-icons">
-            <i class="bx bx-edit-alt"></i>
-        </div>
-        <h3>Creative Design</h3>
-        <p>
-            One way to categories the activities is in terms of professional's
-            area of experience such as competitive analysis, coporate strategies
-        </p>
-        <a href="#" class="btn">Read More</a>
-    </div>
+
 </div>
 </section>
 
@@ -109,43 +103,104 @@
 
 <section class="portfolio" id="portfolio">
 <div class="main-text">
-    <h2><span>Lastest  </span>Project</h2>
+    <h2><span>My  </span>Project</h2>
 </div>
 <div class="portfolio-content">
     <div class="row">
         <img src="imgp1.png">
         <div class="layer">
-            <h5>Visual Design</h5>
-            <p>Check Out Design for Web Design & Development</p>
+            <h5>Online Course Registration </h5>
+            <p>  registerion web page </p>
             <a href="#"><i class='bx bx-link-external'></i></a>
         </div>
     </div>
     <div class="row">
         <img src="imgp2.png">
         <div class="layer">
-            <h5>Visual Design</h5>
-            <p>Check Out Design for Web Design & Development</p>
+            <h5>Online Course Registration</h5>
+            <p> student registration web page</p>
             <a href="#" ><i class='bx bx-link-external'></i></a>
         </div>
     </div>
     <div class="row">
         <img src="imgp3.png">
         <div class="layer">
-            <h5>Visual Design</h5>
-            <p>Check Out Design for Web Design & Development</p>
+            <h5>Online Course Registration</h5>
+            <p>Next sign Up Web page </p>
             <a href="#"><i class='bx bx-link-external'></i></a>
         </div>
     </div>
     <div class="row">
         <img src="imgp4.png">
         <div class="layer">
-            <h5>Visual Design</h5>
-            <p>Check Out Design for Web Design & Development</p>
+            <h5>Product Register Form </h5>
+            <p>sign Up Web page  for product</p>
             <a href="#"><i class='bx bx-link-external'></i></a>
         </div>
     </div>
 </div>
 </section>
 
+<!--         contact section     -->
+<section class="contact" id="contact">
+<div class="contact-text">
+    <h2>Contact <span>  Me!</span></h2>
+    <h4>If you have any project in your mind.</h4>
+    <p>I'm a website Designer -- creating bold & brave interface design .
+    </p>
+    <div class="list">
+        <li><a href="#">9944916751</a></li>
+        <li><a href="#">bharani2502@gmail.com</a></li>
+        <li><a href="#">Like Share & Subscribe</a></li>
+    </div>
+
+    <div class="contact-icons">
+        <a href="#"><i class='bx bxl-facebook' ></i></box-icon></a>
+        <a href="#"><i class='bx bxl-twitter' ></i></box-icon></a>
+        <a href="#"><i class='bx bxl-instagram-alt' ></i></box-icon></a>
+        <a href="#"><i class='bx bxl-youtube' ></i></box-icon></a>
+
+    </div>
+    <a href="Resume.pdf" download class="btn">Download CV</a>
+</div>
+<div class="contact-form">
+    <form name="submit-to-google-sheet">
+        <input type="text" name="Name" placeholder="Your Name" required>
+        <input type="email"  name="Email" placeholder="Your Email" required>
+        <textarea name="Message"   rows="6" placeholder="Your Message" required></textarea>
+        <!--<input type="submit" value="Send Message" class="submit" required>-->
+        <button type="submit" class="btn2">Submit</button>
+    </form>
+    <span id="msg"></span>
+</div>
+</section>
+
+<!--       The End Section      -->
+<section class="end">
+    <div class="last-text">
+        <p>copyright @ bharani</p>
+    </div>
+        <div class="top">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+  
+</section>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzT2bvV9HOaazKGU1vp-U27J98217YM1YM9XP8cnhd8u8CMaHMZevYr0QA3xsbf2Re0BQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML= ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
 </body>
 </html>
