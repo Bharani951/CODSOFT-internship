@@ -12,10 +12,14 @@
     align-items: center;
     justify-content: center;
 }
+.calculator a:hover{
+    transform:scale(1.5);
+}
 .calculator{
     background-color: #3a4452;
     padding: 20px;
     border-radius: 10px;
+
 }
 .calculator form input{
     border: 0;
@@ -29,6 +33,7 @@
     color: #fff;
     cursor: pointer;
     margin: 10px;
+   
 }
 form .display{
     display: flex;
@@ -36,10 +41,10 @@ form .display{
     margin: 20px 0;
 }
 form .display input{
-text-align: right;
-flex: 1;
-font-size: 45px;
-box-shadow: none;
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
 }
 form input.equal {
     width: 145px;

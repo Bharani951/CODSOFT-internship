@@ -48,6 +48,40 @@ header{
    
 
 }
+header a.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    gap: 10px;
+}
+
+header a.logo img {
+    display: block;
+    width: 50px;
+    height: auto;
+}
+
+header a.logo span {
+    font-weight: bold;
+}
+
+header {
+    background: #333;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+
+#i1 {
+    width: 80px;
+    height: auto;
+    transition: transform 0.3s ease;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 span{
     color: var(--main-color);
 }
@@ -326,7 +360,9 @@ margin-top: 5rem;
     overflow: hidden;
     border-radius: 8px;
     cursor: pointer;
+    font-size: 40px;
 }
+
 .row img{
     width: 100%;
     border-radius: 8px;
@@ -353,12 +389,15 @@ margin-top: 5rem;
     font-weight: 600;
     margin-bottom:15px;
     color: #202020;
+    line-height: 2.5;
+    letter-spacing: 2;
     
 }
 .layer p{
     color:var(--text-color);
-    font-size: 1rem;
-    line-height: 1.8;
+    font-size: 15px;
+    line-height: 2;
+    letter-spacing: 2;
 }
 .layer i {
    color: var(--main-color);
@@ -376,7 +415,7 @@ margin-top: 5rem;
     transform: scale(1.1);
 }
 .row:hover .layer{
-    height: 70%;
+    height: 100%;
 }
 .contact{
     background: var(--second--bg-color);
